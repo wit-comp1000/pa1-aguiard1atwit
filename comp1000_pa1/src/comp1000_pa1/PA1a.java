@@ -2,6 +2,7 @@ import java.util.*;
 package comp1000_pa1;
 
 public class PA1a {
+  public static void main(String[] args) {
   Scanner input = new Scanner(System.in);
 
         System.out.println("Enter the number of yards: ");
@@ -16,5 +17,5 @@ public class PA1a {
         int totalInches = yards + feet + inches;
 
         System.out.println("Total number of inches: " + totalInches);
-
+  }
 }
